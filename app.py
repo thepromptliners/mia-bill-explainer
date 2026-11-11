@@ -10,8 +10,8 @@ st.set_page_config(page_title='My Meralco', page_icon='⚡', layout='wide', init
 
 ASSET_DIR = Path('assets')
 KLARO_URL = 'https://meralco.sharepoint.com/sites/cpiar/Shared%20Documents/Copilot%20Studio%20Agents?id=/sites/cpiar/Shared%20Documents/Copilot%20Studio%20Agents/Klaro_crba2_bill.agent&parent=/sites/cpiar/Shared%20Documents/Copilot%20Studio%20Agents'
-CUSTOMER_NAME = 'Candyl John'
-ACCOUNT_NUMBER = '0585214282'
+CUSTOMER_NAME = 'Juan Dela Cruz'
+ACCOUNT_NUMBER = '05852167123'
 
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
