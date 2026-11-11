@@ -24,8 +24,28 @@ import streamlit.components.v1 as components
 st.markdown(
     """
     <style>
-        .stApp { background: #fff; }
-        div[data-testid="stMain"] > div { padding-top: 0 !important; }
+        .stApp {
+            background: #fff;
+        }
+
+        header[data-testid="stHeader"] {
+            display: none;
+        }
+
+        div[data-testid="stMain"] {
+            padding: 0 !important;
+        }
+
+        div[data-testid="stMain"] > div {
+            padding-top: 0 !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .block-container {
+            padding: 0 !important;
+            max-width: 100% !important;
+        }
     </style>
     """,
     unsafe_allow_html=True,
